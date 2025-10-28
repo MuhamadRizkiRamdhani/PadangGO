@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1096809931245",
+    "project_id": "nasi-padang-da655",
+    "storage_bucket": "nasi-padang-da655.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1096809931245:android:651cebf32630ba764847e4",
+        "android_client_info": {
+          "package_name": "com.example.aplikasi_katalog"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAK1dm_Qi02B8E1DEEh5otPtKVYSpE3AB4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
