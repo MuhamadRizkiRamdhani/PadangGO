@@ -1,6 +1,6 @@
-import 'package:aplikasi_katalog/firebase_options.dart';
-import 'package:aplikasi_katalog/katalog.dart';
-import 'package:aplikasi_katalog/dashboard_admin.dart';
+import 'package:aplikasi_katalog/controls/firebase_options.dart';
+import 'package:aplikasi_katalog/view/katalog.dart';
+import 'package:aplikasi_katalog/view/dashboard_admin.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:aplikasi_katalog/controls/login_control.dart';
@@ -15,7 +15,6 @@ void main() async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -39,7 +38,6 @@ class MyApp extends StatelessWidget {
 
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -181,7 +179,6 @@ class AuthGate extends StatelessWidget {
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
-
   @override
   State<LoginPage> createState() => _LoginPageState();
 }

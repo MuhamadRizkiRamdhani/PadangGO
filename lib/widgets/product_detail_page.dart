@@ -228,7 +228,7 @@ class ProductDetailPage extends StatelessWidget {
                         color: Colors.white,
                       ),
                       label: const Text(
-                        'Add to Cart',
+                        'Masukkan ke Keranjang!',
                         style: TextStyle(
                           fontSize: 17,
                           color: Colors.white,

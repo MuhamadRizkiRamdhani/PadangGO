@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:aplikasi_katalog/widgets/confirm_logout_dialog.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:aplikasi_katalog/product_list_page.dart';
+import 'package:aplikasi_katalog/view/product_list_page.dart';
 
 class DashboardAdminPage extends StatefulWidget {
   @override

@@ -9,7 +9,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:aplikasi_katalog/widgets/confirm_logout_dialog.dart';
 import 'package:aplikasi_katalog/controls/login_control.dart';
-import 'package:aplikasi_katalog/order_history_page.dart';
+import 'package:aplikasi_katalog/view/order_history_page.dart';
 
 class ProdukPage extends StatefulWidget {
   @override
